@@ -1,3 +1,3 @@
 FROM alpine:3.11
 
-RUN sudo apt-get update && sudo apt-get install -y wget
+RUN apk add openjdk11 --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community
